@@ -1,0 +1,3 @@
+jsda loop bu biron malumotni tartibli va takrorlab ishlatish uchun ishlatiladi 
+jsda kop kod yozmaslik yani kodlarni qisqartirish uchun ishlatiladi 
+jsda yana ozgaruvchilarni typeni ozgartirish mumkin maslan ozgaruvchini qimatini oldigani uni bolishi kerak bolgai typeni yozish kifoya 

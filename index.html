@@ -3,31 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./src/output.css">
+    <title>House</title>
+    <link rel="stylesheet" href="./src/output.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-     
     />
   </head>
   <body>
     <!-- header start -->
-    <header class="py-5 bg-[#e1ede6]">
+    <header class="py-5 bg-[#e1ede6] sticky top-0 z-50">
       <div class="container1">
-        <nav class="navbar xe:flex xe:flex-row xs:flex xs:flex-col justify-between items-center gap-2.5">
-          <nav class="xs:w-[100%] xe:w-auto ">
-            <img class="mx-auto mb-1" src="./img/logo.svg" alt="" /> 
-            <hr class="xe:hidden xs:flex">
+        <nav
+          class="navbar xe:flex xe:flex-row xs:flex xs:flex-col justify-between items-center gap-2.5"
+        >
+          <nav class="xs:w-[100%] xe:w-auto">
+            <img class="mx-auto mb-1" src="./img/logo.svg" alt="" />
+            <hr class="xe:hidden xs:flex" />
           </nav>
-          
 
-          <nav class="flex items-center sm:gap-10 xr:gap-10 xs:gap-[250px] ">
-           <div class="xr:hidden xs:flex"> <i class="fa-solid fa-bars "></i></div>
-            <ul class="xr:flex items-center sm:gap-10 xr:gap-10 xs:gap-5 xs:hidden">
-              <li><a class="font-medium xr:text-xl xs:text-[16px] text-[#2c2d35]" href="#">Репродукции</a></li>
-              <li><a class="font-medium xr:text-xl xs:text-[16px] text-[#2c2d35]" href="#">Новинки</a></li>
-              <li><a class="font-medium xr:text-xl xs:text-[16px] text-[#2c2d35]" href="#">О нас</a></li>
+          <nav class="flex items-center sm:gap-10 xr:gap-10 xs:gap-[250px]">
+            <div class="xr:hidden xs:flex">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+            <ul
+              class="xr:flex items-center sm:gap-10 xr:gap-10 xs:gap-5 xs:hidden"
+            >
+              <li>
+                <a
+                  class="font-medium xr:text-xl xs:text-[16px] text-[#2c2d35]"
+                  href="#"
+                  >Репродукции</a
+                >
+              </li>
+              <li>
+                <a
+                  class="font-medium xr:text-xl xs:text-[16px] text-[#2c2d35]"
+                  href="#"
+                  >Новинки</a
+                >
+              </li>
+              <li>
+                <a
+                  class="font-medium xr:text-xl xs:text-[16px] text-[#2c2d35]"
+                  href="#"
+                  >О нас</a
+                >
+              </li>
             </ul>
             <i class="fa-solid fa-cart-shopping"></i>
           </nav>
@@ -35,5 +57,320 @@
       </div>
     </header>
     <!-- header end-->
+
+    <!-- showcase start -->
+    <section class="mb-[40px]">
+      <div class="container1">
+        <div
+          class="p md:flex md:flex-row xs:flex xs:flex-col gap-10 items-center justify-between py-[80px]"
+        >
+          <div class="left">
+            <img src="./img/Qush.png" alt="" />
+          </div>
+          <div class="right">
+            <h1
+              class="font-medium xe:text-6xl xs:text-[30px] leading-[110%] text-[#2c2d35]"
+            >
+              Реплики картин <br />
+              от <span class="text-[#598d66]">Ink. House</span>
+            </h1>
+            <p
+              class="font-medium xe:text-lg xs:text-[14px] leading-[150%] text-[#86928b] my-[40px]"
+            >
+              Высокое качество отрисовки на плотной бумаге или льняном <br />
+              холсте. Редкие произведения, доступные цены.
+            </p>
+            <button
+              class="border px-[60px] py-5 border-solid border-[#598d66] font-medium text-xl text-[#598d66]"
+            >
+              Продукция
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- showcase end-->
+
+    <!--book start -->
+    <section class="my-[90px]">
+      <div class="container1">
+        <div
+          class="tp md:flex md:flex-row xs:flex xs:flex-col gap-5 justify-between items-center my-[30px]"
+        >
+          <h2 class="font-medium text-[40px] leading-[110%] text-[#2c2d35]">
+            Репродукции
+          </h2>
+          <div class="flex xe:gap-3 xs:gap-0.5 items-center">
+            <button
+              class="bg-[#376b44] px-5 py-2.5 rounded-[20px] font-medium xr:text-xl xs:text-14px text-[#f4f6f5]"
+            >
+              Франция
+            </button>
+            <button
+              class="hover:bg-[#376b44] bg-[#d4e8d9] px-5 py-2.5 rounded-[20px] font-medium xr:text-xl xs:text-14px hover:text-[#f4f6f5] text-[#000]"
+            >
+              Германия
+            </button>
+            <button
+              class="hover:bg-[#376b44] bg-[#d4e8d9] px-5 py-2.5 rounded-[20px] font-medium xr:text-xl xs:text-14px hover:text-[#f4f6f5] text-[#000]"
+            >
+              Англия
+            </button>
+          </div>
+        </div>
+        <div
+          class="p grid 2xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 gap-12"
+        >
+          <div class="box bg-[#e1ede6] p-[20px]">
+            <img src="./img/rasm.png" alt="" />
+            <p class="font-medium text-lg text-[#86928b] my-[10px]">
+              Марсель Руссо
+            </p>
+            <h3 class="font-medium text-3xl text-[#2c2d35]">Охота Амура</h3>
+            <p class="font-medium text-lg text-[#2c2d35]">
+              Холст, масло (50х80)
+            </p>
+            <p class="font-medium text-2xl text-[#598d66] mt-[20px]">
+              14 500 руб
+            </p>
+            <button
+              class="font-medium text-xl text-[#598d66] px-[60px] py-5 border-[1px] border-solid border-[#1d2d21] mt-[10px]"
+            >
+              В корзину
+            </button>
+          </div>
+          <div class="box bg-[#e1ede6] p-[20px] w-auto">
+            <img src="./img/rasm.png" alt="" />
+            <p class="font-medium text-lg text-[#86928b] my-[10px]">
+              Марсель Руссо
+            </p>
+            <h3 class="font-medium text-3xl text-[#2c2d35]">Охота Амура</h3>
+            <p class="font-medium text-lg text-[#2c2d35]">
+              Холст, масло (50х80)
+            </p>
+            <p class="font-medium text-2xl text-[#598d66] mt-[20px]">
+              14 500 руб
+            </p>
+            <button
+              class="font-medium text-xl text-[#598d66] px-[60px] py-5 border-[1px] border-solid border-[#1d2d21] mt-[10px]"
+            >
+              В корзину
+            </button>
+          </div>
+
+          <div class="box bg-[#e1ede6] p-[20px] w-auto">
+            <img src="./img/rasm.png" alt="" />
+            <p class="font-medium text-lg text-[#86928b] my-[10px]">
+              Марсель Руссо
+            </p>
+            <h3 class="font-medium text-3xl text-[#2c2d35]">Охота Амура</h3>
+            <p class="font-medium text-lg text-[#2c2d35]">
+              Холст, масло (50х80)
+            </p>
+            <p class="font-medium text-2xl text-[#598d66] mt-[20px]">
+              14 500 руб
+            </p>
+            <button
+              class="font-medium text-xl text-[#598d66] px-[60px] py-5 border-[1px] border-solid border-[#1d2d21] mt-[10px]"
+            >
+              В корзину
+            </button>
+          </div>
+
+          <div class="box bg-[#e1ede6] p-[20px] w-auto">
+            <img src="./img/rasm.png" alt="" />
+            <p class="font-medium text-lg text-[#86928b] my-[10px]">
+              Марсель Руссо
+            </p>
+            <h3 class="font-medium text-3xl text-[#2c2d35]">Охота Амура</h3>
+            <p class="font-medium text-lg text-[#2c2d35]">
+              Холст, масло (50х80)
+            </p>
+            <p class="font-medium text-2xl text-[#598d66] mt-[20px]">
+              14 500 руб
+            </p>
+            <button
+              class="font-medium text-xl text-[#598d66] px-[60px] py-5 border-[1px] border-solid border-[#1d2d21] mt-[10px]"
+            >
+              В корзину
+            </button>
+          </div>
+
+          <div class="box bg-[#e1ede6] p-[20px] w-auto">
+            <img src="./img/rasm.png" alt="" />
+            <p class="font-medium text-lg text-[#86928b] my-[10px]">
+              Марсель Руссо
+            </p>
+            <h3 class="font-medium text-3xl text-[#2c2d35]">Охота Амура</h3>
+            <p class="font-medium text-lg text-[#2c2d35]">
+              Холст, масло (50х80)
+            </p>
+            <p class="font-medium text-2xl text-[#598d66] mt-[20px]">
+              14 500 руб
+            </p>
+            <button
+              class="font-medium text-xl text-[#598d66] px-[60px] py-5 border-[1px] border-solid border-[#1d2d21] mt-[10px]"
+            >
+              В корзину
+            </button>
+          </div>
+
+          <div class="box bg-[#e1ede6] p-[20px] w-auto">
+            <img src="./img/rasm.png" alt="" />
+            <p class="font-medium text-lg text-[#86928b] my-[10px]">
+              Марсель Руссо
+            </p>
+            <h3 class="font-medium text-3xl text-[#2c2d35]">Охота Амура</h3>
+            <p class="font-medium text-lg text-[#2c2d35]">
+              Холст, масло (50х80)
+            </p>
+            <p class="font-medium text-2xl text-[#598d66] mt-[20px]">
+              14 500 руб
+            </p>
+            <button
+              class="font-medium text-xl text-[#598d66] px-[60px] py-5 border-[1px] border-solid border-[#1d2d21] mt-[10px]"
+            >
+              В корзину
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--book end -->
+
+    <!-- bgli start -->
+    <section
+      class="bg-[url(/img/bg.png)] w-auto h-[650px] bg-no-repeat bg-cover"
+    >
+      <div class="container1">
+        <div class="p py-[100px]">
+          <div class="h flex gap-3.5 items-center">
+            <img src="./img/Star 2.png" alt="" />
+            <h2
+              class="font-medium xe:text-[40px] xs:text-[20px] leading-[100%] text-[#f4f6f5]"
+            >
+              Новая коллекция <br />
+              французских авторов
+            </h2>
+          </div>
+          <p
+            class="font-medium xe:text-lg xs:text-[16px] leading-[150%] text-white my-[30px]"
+          >
+            Сложно сказать, почему акционеры крупнейших компаний <br />
+            призывают нас к новым свершениям, которые, в свою <br />
+            очередь, должны быть заблокированы в рамках своих <br />
+            собственных рациональных ограничений. <br />
+            <br />
+            Принимая во внимание показатели успешности, граница <br />
+            обучения кадров предопределяет высокую <br />
+            востребованность направлений прогрессивного развития.
+          </p>
+          <button
+            class="bg-[#eedb6d] px-[60px] py-5 font-medium text-xl text-[#2c2d35]"
+          >
+            Ознакомиться
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- bgli start -->
+
+    <!-- nasha start -->
+    <section class="py-[90px]">
+      <div class="container1">
+        <div
+          class="p sm:flex sm:flex-row xs:flex xs:flex-col items-center justify-between gap-4"
+        >
+          <div class="left">
+            <img src="./img/nasha umg.png" alt="" />
+          </div>
+          <div class="right">
+            <h4 class="font-medium text-[40px] leading-[110%] text-[#2c2d35]">
+              Наша команда
+            </h4>
+            <p
+              class="font-medium text-lg leading-[150%] text-[#2c2d35] my-[30px]"
+            >
+              Значимость этих проблем настолько очевидна, что базовый вектор
+              <br />
+              развития позволяет оценить значение экспериментов, поражающих
+              <br />
+              по своей масштабности и грандиозности. Мы вынуждены отталкиваться
+              <br />
+              от того, что консультация с широким активом.
+            </p>
+            <div class="i flex items-center gap-1">
+              <img src="./img/nasha1.png" alt="" />
+              <img src="./img/nasha2.jpg" alt="" />
+              <img src="./img/nasha3.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- nasha end -->
+
+    <!-- footer start -->
+    <footer class="bg-[#e1ede6] py-[40px]">
+      <div class="container1">
+        <div class="p md:flex md:flex-row xs:flex xs:flex-col gap-5 items-start justify-between">
+          <div class="box">
+            <img class="mb-[30px]" src="./img/logo.svg" alt="" />
+            <a
+              class="font-medium text-xl text-[#2c2d35]"
+              href="tel:+7 (999) 543-54-54"
+              >+7 (999) 543-54-54</a
+            >
+            <p class="font-medium text-lg text-[#86928b]">Мастерская</p>
+          </div>
+
+          <div class="">
+            <h4 class="font-medium text-xl text-[#2c2d35]">Репродукции</h4>
+            <p class="font-medium text-lg leading-[150%] text-[#86928b]">
+              Франция
+            </p>
+            <p class="font-medium text-lg leading-[150%] text-[#86928b]">
+              Германия
+            </p>
+            <p class="font-medium text-lg leading-[150%] text-[#86928b]">
+              Англия
+            </p>
+          </div>
+
+          <div class="">
+            <h4 class="font-medium text-xl text-[#2c2d35]">Новинки</h4>
+            <p class="font-medium text-lg leading-[150%] text-[#86928b]">
+              2021
+            </p>
+            <p class="font-medium text-lg leading-[150%] text-[#86928b]">
+              2021
+            </p>
+          </div>
+
+          <div class="">
+            <h4 class="font-medium text-xl text-[#2c2d35]">О нас</h4>
+            <p class="font-medium text-lg leading-[150%] text-[#86928b]">
+              Художники
+            </p>
+            <p class="font-medium text-lg leading-[150%] text-[#86928b]">
+              Менеджеры
+            </p>
+          </div>
+
+          <div class="">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+              <p class="font-medium text-lg leading-[150%] text-[#86928b]">
+              Ink. House ®
+            </p>
+              <p class="font-medium text-lg leading-[150%] text-[#86928b]">
+              All rights reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
   </body>
 </html>
